@@ -1,0 +1,26 @@
+<mat-card>
+    <mat-card-title class="titulo black white borda2 mat-elevation-z3">Excluir Produto</mat-card-title>
+    <form class="form2">
+
+        <mat-form-field class="borda2">
+            <input matInput placeholder="Nome"
+                [value]="product.name" name="name" disabled>
+        </mat-form-field>
+
+        <mat-form-field class="borda1">
+            <input matInput placeholder="Preço (R$)"
+                [value]="product.price" name="price" disabled>
+        </mat-form-field>
+
+    </form>
+
+    <form class="borda1">
+        <button mat-raised-button (click)="deleteProduct()" color="warn">
+            Excluir
+        </button>
+        
+        <button mat-raised-button (click)="cancel()">
+            Cancelar
+        </button>
+    </form>
+</mat-card>

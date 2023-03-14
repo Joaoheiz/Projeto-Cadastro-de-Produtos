@@ -1,0 +1,27 @@
+table {
+    width: 100%;
+    background-color: white;
+}
+
+.black {
+    color: black;
+    font-size: 1.1rem;
+}
+
+.black2 {
+    color: black;
+    font-size: 1rem;
+}
+
+.edit {
+    margin-right: 8px; 
+}
+
+.edit > i{
+    color: #d9cd26;
+    padding-right: 10px;
+}
+
+.delete > i {
+    color: #e65e6b;
+}

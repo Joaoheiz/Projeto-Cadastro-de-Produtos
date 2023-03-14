@@ -1,0 +1,34 @@
+{
+  "products": [
+    {
+      "id": 3,
+      "name": "Caderno Capa Dura ",
+      "price": 14.99
+    },
+    {
+      "name": "Produto de Teste",
+      "price": 124.99,
+      "id": 4
+    },
+    {
+      "name": "Borracha Branca",
+      "price": 2.99,
+      "id": 5
+    },
+    {
+      "name": "MacBook",
+      "price": "1999.99",
+      "id": 6
+    },
+    {
+      "name": "lapis rosa",
+      "price": "2.50",
+      "id": 7
+    },
+    {
+      "name": "teste",
+      "price": "1",
+      "id": 8
+    }
+  ]
+}
